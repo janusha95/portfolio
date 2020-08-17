@@ -1,0 +1,75 @@
+@media (min-width: 550px) {
+  .about ul {
+    padding-left: 100px;
+  }
+
+  .skillsContainer {
+    max-width: none;
+  }
+}
+
+@media (min-width: 760px) {
+  input {
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 800px) {
+  .topBar {
+    display: flex;
+  }
+
+  .logo {
+    top: 10px;
+    left: 0;
+  }
+
+  .mainNav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .up {
+    visibility: visible;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+
+  footer h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero {
+    display: flex;
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}

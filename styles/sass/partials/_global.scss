@@ -1,0 +1,88 @@
+body {
+  font-family: $bodyText;
+  cursor: default;
+}
+
+body,
+a {
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-external-link-alt {
+  color: $black;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1000px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+nav a,
+.hire,
+.projectLink,
+.blogLink,
+button {
+  font-family: $headerText;
+  font-weight: 700;
+}
+
+nav a:hover,
+nav a:focus {
+  color: $accent;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid $grey;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+// Orange underline on section headers
+h3:after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 30px;
+  border-bottom: 4px solid $accent; 
+  padding-bottom: 5px;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: -3px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
